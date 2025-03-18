@@ -24,8 +24,8 @@ class TicketSwapMe:
         self.has_tickets = False
 
     def login(self):
-        username = 'insert facebook email here'
-        password = 'insert facebook password here'
+        username = 'hautot.sebastien23@gmail.com'
+        password = 'Niquetamere23*'
 
         self.driver.get(HOST)
         login_button = self.driver.find_element(By.XPATH, "/html/body/div[1]/div[1]/nav/div[1]/ul/li[3]/button")
@@ -54,7 +54,7 @@ class TicketSwapMe:
 
     def start(self):
         time.sleep(7)
-        self.driver.get('insert url here')
+        self.driver.get('https://fr.ticketswap.be/event/paul-mirabel/d8ae7132-048a-4455-a0d6-3c95c59107f9')
 
         while True:
             time.sleep(3)
